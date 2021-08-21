@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 112, 89)
+}
+
+h1 {
+   background-color: rgb(180, 255, 232); 
+   font-family: 'Lobster', cursive;
+   border-radius: 50%;
+   text-align: center;
+}
+
+legend {
+    text-align: center;
+}
+
+
+#fieldset1 {
+    background-color: rgb(88, 168, 144);
+    display: flex;
+    flex-direction: column;
+}
+
+#fieldset2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#fieldset3 {
+    background-color: rgb(88, 168, 144);
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    display: flex;
+    justify-content: center;  
+}
+
+table {
+    font-family: 'Play', sans-serif;
+    border: 1px solid black
+}
+
+legend {
+    font-family: 'Play', sans-serif;
+    padding-bottom: 10px;
+}
+
+td {
+    border: 1px solid black
+}
+
+#div1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    font-family: 'Play', sans-serif;
+    font-size: large;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(88, 168, 144);
+}
+
+
+

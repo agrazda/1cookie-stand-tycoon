@@ -13,25 +13,26 @@ export default function CreateForm({ onCreate }) {
         <form onSubmit={submitHandler}>
 
             <legend>Create Cookie Stand</legend>
+            
 
-            <div>
+            <div id='div1'>
                 <label htmlFor="location">Location</label>
                 <input type="text" name="location" />
             </div>
 
             <div>
 
-                <fieldset>
+                <fieldset id='fieldset1'>
                     <label htmlFor="min-customers">Minimum Customers per Hour</label>
                     <input type="number" name="min-customers" />
                 </fieldset>
 
-                <fieldset>
+                <fieldset id='fieldset2'>
                     <label htmlFor="max-customers">Maximum Customers per Hour</label>
                     <input type="number" name="max-customers" />
                 </fieldset>
 
-                <fieldset>
+                <fieldset id='fieldset3'>
                     <label htmlFor="avg-cookies">Average Cookies per Sale</label>
                     <input type="number" name="avg-cookies" step=".1" />
                 </fieldset>
