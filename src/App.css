@@ -69,3 +69,6 @@ tr:nth-child(even) {
     background-color: rgb(88, 168, 144);
 }
 
+p {
+    color: black
+}
